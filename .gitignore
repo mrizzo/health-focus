@@ -1,0 +1,22 @@
+# Apple Health export — sensitive personal health data, keep local, never commit
+export.xml
+export.zip
+export_cda.xml
+apple_health_export/
+*.gpx
+
+# Generated reports (may contain health data)
+*_health_report.txt
+report.txt
+
+# macOS / Python
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+health_report.txt
+
+# Run logs (may contain report output)
+run.out
+run.err
+run.*
